@@ -1,7 +1,8 @@
-=======
 # nodejs_experiments
 
 Simple server listening for /count GET and /track POST. 
+
+
 What i was trying:
  - Append to file, 
  - Store value in Redis db. 
@@ -11,7 +12,3 @@ What i was trying:
 
 
 Created with Cloud9 service.
-
-
-How to star redis:
-sudo service redis-server start
