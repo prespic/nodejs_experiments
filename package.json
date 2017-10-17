@@ -1,0 +1,24 @@
+{
+  "name": "ibillboard",
+  "version": "0.0.1",
+  "description": "iBillboard task: http://www.ibillboard.com/uloha/vyvojar-uloha-1",
+  "main": "server.js",
+  "repository": "",
+  "author": "Martin Mikula",
+  "test-unit": "NODE_ENV=test mocha '/**/*.spec.js'",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "body-parser": "latest",
+    "sinon": "latest",
+    "chai": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "request": "^2.83.0"
+  }
+}
